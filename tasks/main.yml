@@ -5,7 +5,7 @@
 
 - name: install needed network manager libs
   dnf:
-    name: [ bridge-utils, python-dbus, python3-libselinux, NetworkManager-libnm]
+    name: [ bridge-utils, python-dbus, python3-libselinux, NetworkManager-libnm, nm-connection-editor, python3-policycoreutils]
     state: installed
 
 - name: setup bridge
